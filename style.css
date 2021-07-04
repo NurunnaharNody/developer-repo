@@ -12,8 +12,7 @@ h1{
 section{
 
     display: flex;
-    margin-bottom: 500px;
-   
+    margin-bottom: 150px;
 }
 
 
@@ -33,10 +32,8 @@ section{
       height: 90%;
       
  }
- .margin{
-
-     padding-top:500px;
- }
+ 
+ 
  .link-button{
      text-decoration: none;
      
