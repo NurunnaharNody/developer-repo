@@ -6,10 +6,14 @@ body{
 h1{
     font-size: 50px;
 }
+h2{
+      font-size: 35px;
+
+}
 .color{
     color: orange;
 }
-section{
+.flexible{
 
     display: flex;
     margin-bottom: 150px;
@@ -23,13 +27,14 @@ section{
          
 
  }  
+
  
 
  .width img{
 
       width:80%;
       margin-top: 5px;
-      height: 90%;
+      
       
  }
  
@@ -60,3 +65,36 @@ section{
     background-position: right;
 }
 
+.width-shadow{
+         
+         width:50%;
+         padding-left: 10%;
+         box-shadow: 10px 10px 40px orchid;
+         margin-left: 5%;
+         margin-right: 5%;
+         padding-left: 20px;
+         border-left: 10px solid blue;
+         
+
+ }  
+ #web{
+     border-image: linear-gradient(blue,rgb(34, 192, 192));
+     border-left: 7px solid;
+     border-image-slice: 1;
+ }
+ #web1{
+    border-image: linear-gradient(rgb(160, 9, 92),orangered);
+    border-left: 7px solid;
+    border-image-slice: 1;
+}
+ .exper{
+     background-image: url(exp-bg.png);
+     background-repeat: no-repeat;
+     background-position: left;
+     background-position-x: 0px;
+     
+ }
+ footer p{
+     text-align: center;
+     color: rebeccapurple;
+ }
